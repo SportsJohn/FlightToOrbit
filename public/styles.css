@@ -1,0 +1,47 @@
+body {
+  text-align: center;
+  /* background-image: url("images/OrbitBackgroundImage.png"); */
+  margin: 0px;
+  padding: 0px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  min-height: 10vh;
+  background-color: darkgreen;
+  color: white;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer {
+  margin-top: auto;
+  color: white;
+  padding: 3% 0% 3% 0%;
+  background-color: darkgreen;
+}
+
+.siteHolder {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.leaflet-container {
+  width: 80%;
+  height: 100vh;
+  margin: auto;
+}
